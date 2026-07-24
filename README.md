@@ -1,5 +1,8 @@
 <h1 align="center">Direct Text-Driven 4D Generation with Structured<br> Latent Diffusion [ECCV 2026]</h1>
-<p align="center"><a href='https://sugercanee.github.io/DiTex4D-Page/'><img src='https://img.shields.io/badge/Project_Page-Website-green?logo=googlechrome&logoColor=white' alt='Project Page'></a>
+<p align="center">
+  <img src="https://img.shields.io/badge/Paper-ECCV%202026-red?logo=adobeacrobatreader&logoColor=white" alt="Paper">
+  <a href="https://sugercanee.github.io/DiTex4D-Page/"><img src="https://img.shields.io/badge/Project_Page-Website-green?logo=googlechrome&logoColor=white" alt="Project Page"></a>
+  <a href="https://huggingface.co/Sugercxz/DiTex4D-text-to-4d"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model%20Weights-blue" alt="Hugging Face Model Weights"></a>
 </p>
 <p align="center"><img src="assets/teaser.png" width="100%"></p>
 
@@ -8,7 +11,7 @@ Despite recent progress, direct text-driven 4D object generation remains challen
 ## TODO
 
 - [ ] Release 3D+text-to-4D model inference code and weights
-- [ ] Release text-to-4D model inference code and weights
+- [x] Release text-to-4D model inference code and weights
 
 ## Installation
 
@@ -24,4 +27,18 @@ Alternatively, you can follow the detailed installation guidance provided by [TR
 ## Usage
 
 We provide a minimal example to run text-to-4D pipeline:
-...
+```
+python text_to_4d.py
+```
+
+<!-- Citation -->
+## Citation
+
+```bibtex
+@article{chen2026ditex4d,
+  author = {Chen, Xiaozhe and Rong, Mengqi and Liu, Jian and Shen, Shuhan},
+  title = {DiTex4D: Direct Text-Driven 4D Generation with Structured Latent Diffusion},
+  year = {2026},
+  journal = {ECCV},
+}
+```
